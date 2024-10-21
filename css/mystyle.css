@@ -1,0 +1,21 @@
+
+* {
+    background-color: #000000;
+}
+
+:root{
+    --btn-shape-bg-color: rgb(230, 83, 60);
+    --text-color: white;
+    --para-color: rgba(255, 255, 255, 0.5);
+    --card-bg-color: rgba(34, 34, 34, 0.2);
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;  
+  font-style: normal;
+}
+.logo-text{
+    color: var(--text-color);
+    
+}
