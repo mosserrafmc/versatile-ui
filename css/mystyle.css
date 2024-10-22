@@ -172,8 +172,8 @@ nav {
     background-color: var(--card-bg-color);
     backdrop-filter: blur(10px);
     position: absolute;
-    top: 260px;
-    right: 140px;
+    top: 32%;
+    right: 8%;
     padding: 20px 23px;
     border-radius: 12px;
 }
@@ -187,8 +187,8 @@ nav {
     background-color: var(--card-bg-color);
     backdrop-filter: blur(10px);
     position: absolute;
-    top: 530px;
-    right: 460px;
+    top: 68%;
+    right: 32%;
     padding: 20px 23px;
     border-radius: 12px;
 
@@ -246,4 +246,22 @@ nav {
     font-size: 1em;
     color: var(--text-color);
     padding: 30px 5px;
+}
+
+.run-extra-container{
+    max-width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 40px;
+    backdrop-filter: blur(20px);
+    background-color: var(--card-bg-color);
+    border-radius: 18px;
+}
+.run-extra-text{
+    max-width: 80%;
+    margin-bottom: 40px;
+}
+.run-image{
+    border-radius: 18px;
 }
