@@ -265,3 +265,20 @@ nav {
 .run-image{
     border-radius: 18px;
 }
+.bmi-text-container{
+    max-width: 45%;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.bmi-calculator-chart{
+    width: 100%;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+    padding: 52px;
+    background-color: var(--card-bg-color);
+}
+
+.bmi-calculate-form-container{
+    max-width: 75%;
+}
