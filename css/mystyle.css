@@ -1,5 +1,7 @@
 * {
-    background-color: #000000;
+    /* background-color: #000000; */
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -14,6 +16,11 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+}
+
+.header-section {    
+    padding: 40px 0px;
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 nav {
@@ -64,3 +71,26 @@ nav {
     border-radius: 46px;
 }
 
+.hero-section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    width: 60%;
+}
+.two-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
