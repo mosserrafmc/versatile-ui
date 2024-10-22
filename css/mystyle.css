@@ -9,7 +9,7 @@
     --btn-shape-bg-color: rgb(230, 83, 60);
     --text-color: rgb(255, 255, 255);
     --para-color: rgba(255, 255, 255, 0.5);
-    --card-bg-color: rgba(141, 141, 141, 0.486);
+    --card-bg-color: rgba(48, 48, 48, 0.54);
     --full-body-bg-color: rgb(0, 0, 0);
 }
 body{
@@ -125,7 +125,7 @@ nav {
 .p-text{
     font-size: 1rem;
     color: var(--para-color);
-    padding-bottom: 20px;
+    
 }
 
 .two-button{
@@ -133,6 +133,7 @@ nav {
     flex-direction: row;
     gap: 30px;
     justify-content: flex-start;
+    padding-top: 20px;
 }
 
 .hero-buttons{
@@ -153,4 +154,39 @@ nav {
     border-style: solid;
     border-color: gray;
     border-radius: 46px;
+}
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.small-card-left{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--card-bg-color);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 580px;
+    right: 440px;
+    padding: 20px 23px;
+    border-radius: 12px;
+
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: var(--btn-shape-bg-color);
+    border-radius: 50%;
+}
+.small-card-h-text{
+    font-size: 2em;
+    color: var(--text-color);
+    font-weight: 600;
+    
 }
