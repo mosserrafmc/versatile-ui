@@ -373,7 +373,7 @@ select {
     max-width: 80%;
     background-color: rgba(255, 255, 255, 0.1);
     margin: 40px 0px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 12px;
 }
 
@@ -383,7 +383,7 @@ select {
     height: 100%;
     grid-template-columns: repeat(3, 326px);   
     grid-template-rows: repeat(2, 272px); 
-    gap: 10px;
+    gap: 20px;
     /* text-align: left; */
     /* align-items: end; */
 }
@@ -393,7 +393,7 @@ select {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: url(/img/trainer1.jpg);
+    background-image: url(img/trainer1.jpg);
     border-radius: 8px;
 }
 .trainer-card-cameron {
@@ -401,7 +401,7 @@ select {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: url(/img/trainer2.jpg);
+    background-image: url(img/trainer2.jpg);
     border-radius: 8px;
 }
 .trainer-card-darrell {
@@ -409,7 +409,7 @@ select {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: url(/img/trainer3.jpg);
+    background-image: url(img/trainer3.jpg);
     border-radius: 8px;
 }
 .trainer-card-dianne {
@@ -417,7 +417,7 @@ select {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: url(/img/trainer4.jpg);
+    background-image: url(img/trainer4.jpg);
     border-radius: 8px;
 }
 .trainer-card-cody {
@@ -425,7 +425,7 @@ select {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: url(/img/trainer5.jpg);
+    background-image: url(img/trainer5.jpg);
     border-radius: 8px;
 }
 .trainer-card-theresa {
@@ -433,7 +433,7 @@ select {
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-start;
-    background-image: url(/img/trainer6.jpg);
+    background-image: url(img/trainer6.jpg);
     border-radius: 8px;
 }
 
