@@ -12,7 +12,8 @@
     --card-bg-color: rgba(48, 48, 48, 0.54);
     --full-body-bg-color: rgb(0, 0, 0);
 }
-body{
+
+body {
     background-color: var(--full-body-bg-color);
 }
 
@@ -26,10 +27,10 @@ body{
     font-family: "Mrs Saint Delafield", cursive;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
 
-.header-section {    
+
+.header-section {
     padding: 40px 0px;
     background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
@@ -62,7 +63,7 @@ nav {
 
 .menu ul li {
     list-style: none;
-    margin-right: 47px;    
+    margin-right: 47px;
 }
 
 .menu ul li a {
@@ -85,7 +86,7 @@ nav {
 
 .hero-section {
     width: 80%;
-    margin: 0 auto;    
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,16 +102,19 @@ nav {
     /* text-align: center; */
     width: 60%;
 }
-.two-button{
+
+.two-button {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.hp-text{
+
+.hp-text {
     max-width: 80%;
 }
-.h-text{
+
+.h-text {
     font-size: 6.1em;
     color: var(--text-color);
     font-weight: bolder;
@@ -118,18 +122,19 @@ nav {
     padding-bottom: 20px;
 
 }
-.diff-text-style{
+
+.diff-text-style {
     font-size: 1.8em;
-    
+
 }
 
-.p-text{
+.p-text {
     font-size: 1rem;
     color: var(--para-color);
-    
+
 }
 
-.two-button{
+.two-button {
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -137,7 +142,7 @@ nav {
     padding-top: 20px;
 }
 
-.hero-buttons{
+.hero-buttons {
     font-size: 1rem;
     color: var(--text-color);
     background-color: var(--btn-shape-bg-color);
@@ -146,7 +151,7 @@ nav {
     border-radius: 46px;
 }
 
-.secnd-hero-buttons{
+.secnd-hero-buttons {
     font-size: 1rem;
     color: var(--para-color);
     background-color: var(--full-body-bg-color);
@@ -157,13 +162,13 @@ nav {
     border-radius: 46px;
 }
 
-.hero-right{
+.hero-right {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
 }
 
-.small-card-right{
+.small-card-right {
     /* display: flex;
     flex-direction: row;
     gap: 10px;
@@ -178,7 +183,7 @@ nav {
     border-radius: 12px;
 }
 
-.small-card-left{
+.small-card-left {
     display: flex;
     flex-direction: row;
     gap: 10px;
@@ -194,19 +199,21 @@ nav {
 
 }
 
-.circle{
+.circle {
     width: 40px;
     height: 40px;
     background-color: var(--btn-shape-bg-color);
     border-radius: 50%;
 }
-.small-card-h-text{
+
+.small-card-h-text {
     font-size: 2em;
     color: var(--text-color);
     font-weight: 600;
-    
+
 }
-.habit-container{
+
+.habit-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -214,41 +221,47 @@ nav {
     text-align: center;
     margin-top: 50px;
 }
-.habit-container-text{
+
+.habit-container-text {
     font-size: 3em;
     color: var(--text-color);
     font-weight: 800;
     margin-bottom: 30px;
 }
-#habit-text{
-    max-width: 45%;    
+
+#habit-text {
+    max-width: 45%;
 }
-.circle-cards{
+
+.circle-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     max-width: 70%;
     margin: 50px auto;
 }
-.circle-box{
+
+.circle-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
-.circle-img{
+
+.circle-img {
     width: 200px;
     height: 180px;
     border-radius: 50%;
 }
-.circle-box-htext{
+
+.circle-box-htext {
     font-size: 1em;
     color: var(--text-color);
     padding: 30px 5px;
 }
 
-.run-extra-container{
+.run-extra-container {
     max-width: 70%;
     display: flex;
     justify-content: center;
@@ -258,49 +271,56 @@ nav {
     background-color: var(--card-bg-color);
     border-radius: 18px;
 }
-.run-extra-text{
+
+.run-extra-text {
     max-width: 80%;
     margin-bottom: 40px;
 }
-.run-image{
+
+.run-image {
     border-radius: 18px;
 }
-.bmi-text-container{
+
+.bmi-text-container {
     max-width: 45%;
     margin-left: 200px;
     margin-bottom: 100px;
 }
-.bmi-calculator-chart{
-    
+
+.bmi-calculator-chart {
+
     padding: 52px;
     background-color: var(--card-bg-color);
 }
 
-.bmi-calc-container{
+.bmi-calc-container {
     max-width: 83%;
     display: grid;
-    grid-template-columns:repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 0px auto;
     justify-content: space-evenly;
-    align-content: center; 
+    align-content: center;
 }
-.bmi-font-size{
+
+.bmi-font-size {
     font-size: 1.8em;
 }
-table{
+
+table {
     border: 1px solid;
     border-color: var(--para-color);
     padding: 5px;
 }
 
-table tr th{
+table tr th {
     font-size: 1.2em;
     font-weight: 600px;
-    color: var(--text-color);    
+    color: var(--text-color);
     text-align: start;
 }
 
-th, td {
+th,
+td {
     font-size: 14px;
     color: var(--para-color);
     padding: 5px;
@@ -308,14 +328,17 @@ th, td {
     border-color: var(--para-color);
 
 }
-.bmi-calculate-form-container{
+
+.bmi-calculate-form-container {
     max-width: 75%;
 }
-.form-input-elements{
+
+.form-input-elements {
     display: flex;
 }
 
-form input, select {
+form input,
+select {
     width: 100%;
     font-size: 12px;
     font-weight: 300;
@@ -327,21 +350,74 @@ form input, select {
     background-color: var(--card-bg-color);
 
 }
-.f-submit-button{
+
+.f-submit-button {
     max-width: 50%;
 }
 
-footer{
-    background-color: rgba(255, 255, 255, 0.1);;
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.team-background {
+    max-width: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin: 40px 0px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.team-cards {
+    display: grid;
+    width: 100%;   
+    grid-template-columns: 326px 326px 326px;    
+    gap: 10px;
+}
+
+.trainer-card-jerome {
+    max-width: 326px;
+    max-height: 272px;
+    background-image: url(/img/trainer1.jpg);
+}
+.trainer-card-cameron {
+    max-width: 326px;
+    max-height: 272px;
+    background-image: url(/img/trainer2.jpg);
+}
+.trainer-card-darrell {
+    max-width: 326px;
+    max-height: 272px;
+    background-image: url(/img/trainer3.jpg);
+}
+.trainer-card-dianne {
+    max-width: 326px;
+    max-height: 272px;
+    background-image: url(/img/trainer4.jpg);
+}
+.trainer-card-cody {
+    max-width: 326px;
+    max-height: 272px;
+    background-image: url(/img/trainer5.jpg);
+}
+.trainer-card-theresa {
+    max-width: 326px;
+    max-height: 272px;
+    background-image: url(/img/trainer6.jpg);
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.1);
+    ;
 }
 
 
-.footer-container{
-
-    /* display: flex;
-    margin: 0px auto;
-    justify-content: space-around;
-    align-items: start; */
+.footer-container {
     max-width: 75%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -351,7 +427,7 @@ footer{
     padding: 5%;
 }
 
-.footer-h-text{
+.footer-h-text {
     font-size: 4em;
     font-weight: 900px;
     letter-spacing: 0.01em;
@@ -364,20 +440,23 @@ footer{
     color: var(--para-color);
     padding: 5px;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
     flex-direction: column;
-    max-width: 75%;   
-    justify-content: center;    
+    max-width: 75%;
+    justify-content: center;
     align-content: center;
-    margin: 0px auto;    
+    margin: 0px auto;
 }
-.footer-line{
+
+.footer-line {
     max-width: 100%;
     max-height: 1px;
     border-top: 1px solid var(--para-color);
 }
-.bottom-p-text{
+
+.bottom-p-text {
     font-size: 13px;
     font-weight: 300px;
     color: var(--para-color);
