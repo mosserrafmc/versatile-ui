@@ -281,7 +281,8 @@ nav {
     display: grid;
     grid-template-columns:repeat(2, 1fr);
     margin: 0px auto;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
+    align-content: center; 
 }
 .bmi-font-size{
     font-size: 1.8em;
@@ -308,7 +309,7 @@ th, td {
 
 }
 .bmi-calculate-form-container{
-    max-width: 70%;
+    max-width: 75%;
 }
 .form-input-elements{
     display: flex;
@@ -320,7 +321,7 @@ form input, select {
     font-weight: 300;
     color: var(--para-color);
     padding: 12px 40px 12px 20px;
-    margin: 8px;
+    margin: 8px 8px 8px 0px;
     border: 1px solid var(--para-color);
     border-radius: 8px;
     background-color: var(--card-bg-color);
@@ -328,4 +329,58 @@ form input, select {
 }
 .f-submit-button{
     max-width: 50%;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.1);;
+}
+
+
+.footer-container{
+
+    /* display: flex;
+    margin: 0px auto;
+    justify-content: space-around;
+    align-items: start; */
+    max-width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    padding: 5%;
+}
+
+.footer-h-text{
+    font-size: 4em;
+    font-weight: 900px;
+    letter-spacing: 0.01em;
+    font-style: italic;
+    color: var(--btn-shape-bg-color);
+}
+
+.footer-links li {
+    list-style: none;
+    color: var(--para-color);
+    padding: 5px;
+}
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;   
+    justify-content: center;    
+    align-content: center;
+    margin: 0px auto;    
+}
+.footer-line{
+    max-width: 100%;
+    max-height: 1px;
+    border-top: 1px solid var(--para-color);
+}
+.bottom-p-text{
+    font-size: 13px;
+    font-weight: 300px;
+    color: var(--para-color);
+    text-align: center;
+    padding: 20px;
 }
