@@ -365,6 +365,10 @@ select {
     margin: 100px auto;
 }
 
+.team-text{
+    max-width: 50%;
+}
+
 .team-background {
     max-width: 80%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -375,40 +379,77 @@ select {
 
 .team-cards {
     display: grid;
-    width: 100%;   
-    grid-template-columns: 326px 326px 326px;    
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(3, 326px);   
+    grid-template-rows: repeat(2, 272px); 
     gap: 10px;
+    /* text-align: left; */
+    /* align-items: end; */
 }
 
 .trainer-card-jerome {
-    max-width: 326px;
-    max-height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-image: url(/img/trainer1.jpg);
+    border-radius: 8px;
 }
 .trainer-card-cameron {
-    max-width: 326px;
-    max-height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-image: url(/img/trainer2.jpg);
+    border-radius: 8px;
 }
 .trainer-card-darrell {
-    max-width: 326px;
-    max-height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-image: url(/img/trainer3.jpg);
+    border-radius: 8px;
 }
 .trainer-card-dianne {
-    max-width: 326px;
-    max-height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-image: url(/img/trainer4.jpg);
+    border-radius: 8px;
 }
 .trainer-card-cody {
-    max-width: 326px;
-    max-height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-image: url(/img/trainer5.jpg);
+    border-radius: 8px;
 }
 .trainer-card-theresa {
-    max-width: 326px;
-    max-height: 272px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
     background-image: url(/img/trainer6.jpg);
+    border-radius: 8px;
+}
+
+.team-box-htext{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-left: 10px;
+}
+
+.team-p-text{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: var(--para-color);
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 footer {
