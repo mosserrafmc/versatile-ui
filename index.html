@@ -127,39 +127,58 @@
                     or access to a gym.</p>
             </div>
             <div class="bmi-calculator-chart">
-                <div>
-                    <h2 class="habit-container-text">BMI Calculator Chart</h2>
-                    <table>
-                        <tr>
-                            <th>BMI</th>
-                            <th>Weight Status</th>
-                        </tr>
-                        <tr>
-                            <td class="p-text">Below 18.5</td>
-                            <td class="p-text">Underweight</td>                            
-                        </tr>
-                        <tr>
-                            <td class="p-text">18.5 - 24.9</td>
-                            <td class="p-text">Healthy</td>                            
-                        </tr>
-                        <tr>
-                            <td class="p-text">25.0 - 29.9</td>
-                            <td class="p-text">Overweight</td>                            
-                        </tr>
-                        <tr>
-                            <td class="p-text">30.0 - and Above</td>                            
-                            <td class="p-text">Obese</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="bmi-calculate-form-container">
-                    <h2 class="habit-container-text">Calculate your BMI</h2>
-                    <p class="p-text">We believe fitness should be accessible to everyone, everywhere, regardless of income or access
-                        to a gym. </p>
+                <div class="bmi-calc-container">
                     <div>
-                        <form action="">
-
-                        </form>
+                        <h2 class="habit-container-text bmi-font-size">BMI Calculator Chart</h2>
+                        <table>
+                            <tr>
+                                <th>BMI</th>
+                                <th>Weight Status</th>
+                            </tr>
+                            <tr>
+                                <td>Below 18.5</td>
+                                <td>Underweight</td>
+                            </tr>
+                            <tr>
+                                <td>18.5 - 24.9</td>
+                                <td>Healthy</td>
+                            </tr>
+                            <tr>
+                                <td>25.0 - 29.9</td>
+                                <td>Overweight</td>
+                            </tr>
+                            <tr>
+                                <td>30.0 - and Above</td>
+                                <td>Obese</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="bmi-calculate-form-container">
+                        <h2 class="habit-container-text bmi-font-size ">Calculate your BMI</h2>
+                        <p class="p-text">We believe fitness should be accessible to everyone, everywhere, regardless of
+                            income or access
+                            to a gym. </p>
+                        <div>
+                            <form action="">
+                                <div class="form-input-elements">
+                                    <input type="text" placeholder="Height/cm" name="Height/cm" id="">
+                                    <input type="text" placeholder="Weight/kg" name="" id="">
+                                </div>
+                                <dir class="form-input-elements">
+                                    <input type="text" placeholder="Age" name="" id="">
+                                    <select name="Sex" id="" form="Sex">
+                                        <option value="Male">Male</option>
+                                        <option value="Female">Female</option>
+                                    </select>
+                                </dir>
+                                <select name="Select an activity factor" id="afactor" form="Select an activity factor">
+                                    <option value="Select an activity factor">Select an activity factor</option>
+                                    <option value="GYM">GYM</option>
+                                    <option value="Diet">Diet</option>
+                                </select>
+                                <input class="hero-buttons f-submit-button" type="submit" name="Calculate" value="Calculate" id="">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>

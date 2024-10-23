@@ -271,14 +271,61 @@ nav {
     margin-bottom: 100px;
 }
 .bmi-calculator-chart{
-    width: 100%;
-    display: flex;
-    margin: 0px auto;
-    justify-content: space-around;
+    
     padding: 52px;
     background-color: var(--card-bg-color);
 }
 
+.bmi-calc-container{
+    max-width: 83%;
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    margin: 0px auto;
+    justify-content: space-evenly;    
+}
+.bmi-font-size{
+    font-size: 1.8em;
+}
+table{
+    border: 1px solid;
+    border-color: var(--para-color);
+    padding: 5px;
+}
+
+table tr th{
+    font-size: 1.2em;
+    font-weight: 600px;
+    color: var(--text-color);    
+    text-align: start;
+}
+
+th, td {
+    font-size: 14px;
+    color: var(--para-color);
+    padding: 5px;
+    border: 1px solid;
+    border-color: var(--para-color);
+
+}
 .bmi-calculate-form-container{
-    max-width: 75%;
+    max-width: 70%;
+}
+.form-input-elements{
+    display: flex;
+}
+
+form input, select {
+    width: 100%;
+    font-size: 12px;
+    font-weight: 300;
+    color: var(--para-color);
+    padding: 12px 40px 12px 20px;
+    margin: 8px;
+    border: 1px solid var(--para-color);
+    border-radius: 8px;
+    background-color: var(--card-bg-color);
+
+}
+.f-submit-button{
+    max-width: 50%;
 }
